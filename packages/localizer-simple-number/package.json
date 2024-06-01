@@ -1,0 +1,42 @@
+{
+  "name": "react-widgets-simple-number",
+  "version": "5.0.20",
+  "description": "A globalize.js localizer for react-widgets",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist/* lib/*",
+    "build": "babel localizer.ts -o index.js --root-mode upward",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jquense/react-widgets.git"
+  },
+  "keywords": [
+    "react-widgets"
+  ],
+  "author": "Jason Quense",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jquense/react-widgets/issues"
+  },
+  "homepage": "https://github.com/jquense/react-widgets#readme",
+  "peerDependencies": {
+    "react-widgets": "^5.0.0-0.0"
+  },
+  "dependencies": {
+    "deconstruct-number-format": "^0.0.1",
+    "format-number-with-string": "^0.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.7",
+    "cross-env": "^7.0.3",
+    "react-widgets": "^5.8.4",
+    "rimraf": "^3.0.2"
+  }
+}

@@ -1,0 +1,8 @@
+.gitignore
+.npmignore
+
+src/
+docs/
+/packages/*/dist
+
+bower.json

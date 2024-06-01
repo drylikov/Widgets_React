@@ -1,0 +1,43 @@
+{
+  "name": "react-widgets-date-fns",
+  "version": "5.0.20",
+  "description": "A date-fns localizer for react-widgets",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist/* lib/*",
+    "build": "babel localizer.ts -o index.js --root-mode upward",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jquense/react-widgets.git"
+  },
+  "keywords": [
+    "react-widgets"
+  ],
+  "authors": [
+    "Eduardo Cancino (https://github.com/ecancino)",
+    "Marnus Weststrate <marnusw@gmail.com> (https://github.com/marnusw)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jquense/react-widgets/issues"
+  },
+  "homepage": "https://github.com/jquense/react-widgets#readme",
+  "peerDependencies": {
+    "date-fns": "2.0.0-alpha.13",
+    "react-widgets": "^5.0.0-0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.7",
+    "cross-env": "^7.0.3",
+    "date-fns": "^2.28.0",
+    "react-widgets": "^5.8.4",
+    "rimraf": "^3.0.2"
+  }
+}
