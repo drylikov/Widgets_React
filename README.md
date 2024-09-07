@@ -1,4 +1,4 @@
-# react-widgets
+# Widgets React
 
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][downloads-url]
