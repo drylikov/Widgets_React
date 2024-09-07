@@ -19,7 +19,7 @@ workspaces. To get everything setup and dependencies installed:
 
 ### Install
 
-`npm install react-widgets`
+`npm install Widgets_React`
 
 #### Running the doc site locally
 
